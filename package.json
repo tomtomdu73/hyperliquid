@@ -33,7 +33,7 @@
     "test:all": "npm run build && npm run test:node && echo '\nTo test in browser, run: npm run test:browser and visit http://localhost:3000/examples/browser-test.html'",
     "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx}\"",
-    "format:all": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "format:all": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\""
   },
   "keywords": [
     "hyperliquid",
