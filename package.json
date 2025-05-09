@@ -25,7 +25,7 @@
   "sideEffects": false,
   "scripts": {
     "prebuild": "npm run format",
-    "build": "tsup",
+    "build": "npm install && tsup",
     "test": "jest",
     "prepare": "npm run build",
     "test:node": "node examples/node-test.js",
