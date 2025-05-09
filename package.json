@@ -34,7 +34,6 @@
     "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx}\"",
     "format:all": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
-    "postinstall": "husky install"
   },
   "keywords": [
     "hyperliquid",
