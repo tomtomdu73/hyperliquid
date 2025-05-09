@@ -27,7 +27,7 @@
     "prebuild": "npm run format",
     "build": "tsup",
     "test": "jest",
-    "prepare": "husky install && npm run build",
+    "prepare": "npm run build",
     "test:node": "node examples/node-test.js",
     "test:browser": "npx serve -s . -p 3000",
     "test:all": "npm run build && npm run test:node && echo '\nTo test in browser, run: npm run test:browser and visit http://localhost:3000/examples/browser-test.html'",
