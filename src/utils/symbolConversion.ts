@@ -22,7 +22,7 @@ export class SymbolConversion {
 
     try {
       await this.refreshAssetMaps();
-      this.startPeriodicRefresh();
+      //this.startPeriodicRefresh();
       this.initialized = true;
     } catch (error) {
       console.error('Failed to initialize SymbolConversion:', error);
